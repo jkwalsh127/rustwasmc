@@ -1,0 +1,13 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+authors = ["jkwalsh127"]
+description = "A sample project with wasm-pack"
+repository = "https://github.com/jkwalsh127/wasm-pack"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
